@@ -11,3 +11,8 @@ $ ls -l
 $ which
 ```
 - A built-in SHELL command used to identify the location of executables. This is commonly used if a specific executable is installed in the system.
+
+```sh
+$ git status
+```
+- Displays the state of the working directory and the staging area. 

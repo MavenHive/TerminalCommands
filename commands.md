@@ -5,3 +5,4 @@ Here is a list of commands which are useful for the making the day to day life o
 ```sh
 $ ls -l
 ```
+- List directory contents in long format. Output shows most of the info about files which one would need to know.

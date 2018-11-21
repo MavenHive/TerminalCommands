@@ -2,13 +2,6 @@
 
 ### Here is a list of commands which are useful for the making the day to day life of a programmer easier. Plus it performing tasks using the terminal gives an extra edge over in terms of efficiency since they're common across all UNIX systems, i.e., no hassle of navigating through file explorers and menus of differnet operating systems and what not.
 
-#### NOTE: Paste this template if you need to add to this list: 
-   ```sh
-   $
-   ```
-   -
-
-
 
 ```sh
 $ ls -l
@@ -46,6 +39,6 @@ $ git pull
 - Used to fetch and download content from a remote repository and immediately update the local repository to match that content. It is a good practice to use `git pull` when working in teams since the changes are brought about to the remote repository and it'd be very efficient to keep out local repository updated as much as possible.
 
 ```sh
-$ 
+$ git merge master
 ```
-- 
+- This command is used to merge the contents of `master` branch to the `feature_branch` which you're currently on. Like the previous command, this helps in keeping your local repo and yout branch up-to-date with latest `master`.

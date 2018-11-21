@@ -48,3 +48,18 @@ $ git merge master
 $ [command1] && [command2] && ... [commandN]
 ```
 - When we need to execute a set of commands on after the other wherein you need to wait in between individual commands, we can chain them together using `&&`, sit back and wait for all of them to be executed in sequence. Again, this helps in being more efficient if used properly.
+
+```sh
+$ git commit -m "Type in your commit message here"
+```
+- Probably the most frequently utilized command wherein you commit your local changes to the repo. It is highly recommended to create alias for this command as well as any other frequently used git commands
+
+```sh
+$ git commit --amend -m "Make changes to previous commit"
+```
+- Used to make changes to previous commit and also change the commit message at the same time. This works only if the commit has not been pushed to remote repo, otherwise local & remote repos will have diverged.
+
+```sh
+$ git commit --amend --no-edit
+```
+- This command is similar to the previous one but can be used when you don't to change the commit message.

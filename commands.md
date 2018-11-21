@@ -1,6 +1,7 @@
 # List of Commonly used Terminal Commands
 
-### Here is a list of commands which are useful for the making the day to day life of a programmer easier. Plus it performing tasks using the terminal gives an extra edge over in terms of efficiency since they're common across all UNIX systems, i.e., no hassle of navigating through file explorers and menus of differnet operating systems and what not.
+#### Here is a list of commands which are useful for the making the day to day life of a programmer easier. Plus it performing tasks using the terminal gives an extra edge over in terms of efficiency since they're common across all UNIX systems, i.e., no hassle of navigating through file explorers and menus of differnet operating systems and what not.
+
 
 
 ```sh
@@ -42,3 +43,8 @@ $ git pull
 $ git merge master
 ```
 - This command is used to merge the contents of `master` branch to the `feature_branch` which you're currently on. Like the previous command, this helps in keeping your local repo and yout branch up-to-date with latest `master`.
+
+```sh
+$ [command1] && [command2] && ... [commandN]
+```
+- When we need to execute a set of commands on after the other wherein you need to wait in between individual commands, we can chain them together using `&&`, sit back and wait for all of them to be executed in sequence. Again, this helps in being more efficient if used properly.

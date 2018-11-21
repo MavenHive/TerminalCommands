@@ -2,6 +2,14 @@
 
 ### Here is a list of commands which are useful for the making the day to day life of a programmer easier. Plus it performing tasks using the terminal gives an extra edge over in terms of efficiency since they're common across all UNIX systems, i.e., no hassle of navigating through file explorers and menus of differnet operating systems and what not.
 
+#### NOTE: Paste this template if you need to add to this list: 
+#### ```sh
+#### $ 
+#### ```
+#### - 
+
+
+
 ```sh
 $ ls -l
 ```
@@ -31,3 +39,13 @@ $ zip -r [zipped_name.zip] [directory]
 $ unzip [zipped_name.zip] -d [directory]
 ```
 - Here unzip command is used to extract files from a `.zip` file and move them to a specific directory. This goes hand in hand with the zip folder command.
+
+```sh
+$ git pull
+```
+- Used to fetch and download content from a remote repository and immediately update the local repository to match that content. It is a good practice to use `git pull` when working in teams since the changes are brought about to the remote repository and it'd be very efficient to keep out local repository updated as much as possible.
+
+```sh
+$ 
+```
+- 

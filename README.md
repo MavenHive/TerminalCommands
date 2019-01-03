@@ -63,3 +63,8 @@ $ git commit --amend -m "Make changes to previous commit"
 $ git commit --amend --no-edit
 ```
 - This command is similar to the previous one but can be used when you don't to change the commit message.
+
+```sh
+$ take [dir_name]
+```
+- Must have Oh My Zsh installed. This command will create a new directory and change to it.

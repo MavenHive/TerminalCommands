@@ -68,3 +68,8 @@ $ git commit --amend --no-edit
 $ take [dir_name]
 ```
 - Must have Oh My Zsh installed. This command will create a new directory and change to it.
+
+```sh
+$ time [command(s)]
+```
+- `time` is a utility used to execute the command specified and display the time statistics of the command which was run.
